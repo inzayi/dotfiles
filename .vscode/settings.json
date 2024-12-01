@@ -67,6 +67,7 @@
         "after": ["}", "z", "z"]
     }
   ],
+  "vim.useSystemClipboard": true,
 
   // Error lens extension config 
   "errorLens.enabledDiagnosticLevels": [

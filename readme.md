@@ -6,5 +6,5 @@
 - Font: DejaVu
 - Shell prompt: starship
 - Package Manager: homebrew
-- Browser: Zen Browser
+- Browser: Arc
 - Code editor: VS Code
