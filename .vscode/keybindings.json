@@ -1,6 +1,6 @@
 [
   {
-    "key": "ctrl+=",
+    "key": "shift+cmd+=",
     "command": "workbench.action.splitEditor"
   },
   {
