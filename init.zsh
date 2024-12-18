@@ -42,6 +42,9 @@ brew install --cask raycast
 # [docker]
 brew install --cask docker
 
+# [karabiner-elements]
+brew install --cask karabiner-elements
+
 # --- Desktop Applications ---
 brew install --cask figma
 brew install --cask postman
