@@ -8,3 +8,9 @@
 - Package Manager: homebrew
 - Browser: Arc
 - Code editor: VS Code
+
+#### TODO:
+
+- Raycast snippets
+- VS Code snippets
+- Fix Kitty font family

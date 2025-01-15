@@ -36,4 +36,8 @@ killport() {
   lsof -ti tcp:$1 | xargs kill -9
 }
 
+chpwd() {
+  ls
+}
+
 eval "$(starship init zsh)"
