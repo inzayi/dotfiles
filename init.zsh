@@ -51,3 +51,4 @@ brew install --cask postman
 brew install --cask slack
 brew install --cask spotify
 brew install --cask arc
+brew install --cask obsidian
