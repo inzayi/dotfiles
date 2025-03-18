@@ -32,6 +32,11 @@
   "editor.scrollbar.horizontal": "hidden",
   "diffEditor.ignoreTrimWhitespace": false,
   "breadcrumbs.enabled": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.lightbulb.enabled": "off",
+  "editor.guides.indentation": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
 
   // Window
   "window.titleBarStyle": "custom",
@@ -46,6 +51,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
   "files.autoSave": "onFocusChange", 
 
   // Terminal
@@ -144,5 +150,9 @@
     "markdown": false,
     "scminput": false
   },
-  "editor.gotoLocation.multipleDefinitions": "goto",
+  "extensions.ignoreRecommendations": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none"
 }
