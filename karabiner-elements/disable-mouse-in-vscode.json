@@ -1,0 +1,18 @@
+{
+  "manipulators": [
+      {
+          "conditions": [
+              {
+                  "bundle_identifiers": [
+                      "^com\\.microsoft\\.VSCode"
+                  ],
+                  "type": "frontmost_application_if"
+              }
+          ],
+          "description": "Disable left mouse click when VS Code is active",
+          "from": { "pointing_button": "button1" },
+          "to": [],
+          "type": "basic"
+      }
+  ]
+}
