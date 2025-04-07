@@ -711,11 +711,6 @@
     "when": "chatPanelParticipantRegistered"
   },
   {
-    "key": "cmd+p",
-    "command": "workbench.panel.chat",
-    "when": "workbench.panel.chat.view.copilot.active"
-  },
-  {
     "key": "ctrl+cmd+i",
     "command": "-workbench.panel.chat",
     "when": "workbench.panel.chat.view.copilot.active"
@@ -893,5 +888,15 @@
     "key": "cmd+\\",
     "command": "-workbench.action.terminal.splitActiveTab",
     "when": "terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "cmd+f",
+    "command": "-actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
   },
 ]
