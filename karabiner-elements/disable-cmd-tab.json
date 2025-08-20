@@ -1,0 +1,16 @@
+{
+    "manipulators": [
+        {
+            "description": "Disable Cmd + Tab",
+            "from": {
+                "key_code": "tab",
+                "modifiers": {
+                    "mandatory": ["left_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}
