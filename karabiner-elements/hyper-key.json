@@ -1,19 +1,17 @@
 {
     "manipulators": [
         {
-            "description": "Change caps_lock to command+control+option when held, escape when pressed alone.",
+            "description": "Change caps_lock to command+control+option.",
             "from": {
                 "key_code": "caps_lock",
                 "modifiers": { "optional": ["any"] }
             },
-            "parameters": { "basic.to_if_alone_timeout_milliseconds": 150 },
             "to": [
                 {
                     "key_code": "left_command",
                     "modifiers": ["left_control", "left_option"]
                 }
             ],
-            "to_if_alone": [{ "key_code": "escape" }],
             "type": "basic"
         }
     ]

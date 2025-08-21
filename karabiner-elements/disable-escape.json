@@ -1,0 +1,16 @@
+{
+    "manipulators": [
+        {
+            "description": "Disable Escape",
+            "from": {
+                "key_code": "escape",
+                "modifiers": {
+                    "mandatory": [],
+                    "optional": ["any"]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}
