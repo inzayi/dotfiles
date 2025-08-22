@@ -1,17 +1,19 @@
 {
     "manipulators": [
         {
-            "description": "Change caps_lock to command+control+option.",
+            "description": "Hyper key, escape when pressed alone.",
             "from": {
                 "key_code": "caps_lock",
                 "modifiers": { "optional": ["any"] }
             },
+            "parameters": { "basic.to_if_alone_timeout_milliseconds": 150 },
             "to": [
                 {
                     "key_code": "left_command",
                     "modifiers": ["left_control", "left_option"]
                 }
             ],
+            "to_if_alone": [{ "key_code": "escape" }],
             "type": "basic"
         }
     ]
