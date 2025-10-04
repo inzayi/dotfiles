@@ -868,10 +868,6 @@
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   },
   {
-    "key": "cmd+d",
-    "command": "typescript.removeUnusedImports"
-  },
-  {
     "key": "cmd+=",
     "command": "-workbench.action.zoomIn"
   },
@@ -899,4 +895,29 @@
     "command": "workbench.action.toggleMaximizedPanel",
     "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
   },
+  {
+    "key": "cmd+d",
+    "command": "-notebook.addFindMatchToSelection",
+    "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-extension.vim_cmd+d",
+    "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  }
 ]
