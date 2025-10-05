@@ -16,7 +16,6 @@ alias mindnest="cd $HOME/Desktop/projects/mindnest"
 
 # pnpm
 alias pi="pnpm install"
-alias pb="pnpm build"
 alias dev="pnpm dev"
 
 # git aliases
@@ -24,12 +23,6 @@ alias gs="git status"
 alias ga="git add ."
 alias gc="git commit -m"
 alias gl="git log --oneline --graph --decorate"
-alias gp="git pull"
-alias gpu="git push"
-alias gb="git branch"
-alias gst="git stash"
-alias gr="git restore ."
-alias grs="git restore --staged ."
 
 # utils
 killport() {
