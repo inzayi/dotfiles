@@ -1,9 +1,9 @@
 {
-    "description": "Cmd + 8 to Backspace",
+    "description": "Cmd + u to Backspace",
     "manipulators": [
         {
             "from": {
-                "key_code": "8",
+                "key_code": "u",
                 "modifiers": {
                     "mandatory": ["left_command"],
                     "optional": ["any"]
