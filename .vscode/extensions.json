@@ -10,10 +10,7 @@
     "mhutchie.git-graph",
 
     // Tools
-    "GitHub.copilot",
-    "GitHub.copilot-chat",
     "streetsidesoftware.code-spell-checker",
-    "streetsidesoftware.code-spell-checker-polish",
     "dbaeumer.vscode-eslint",
 
     // Editor helpers
@@ -26,14 +23,11 @@
     "formulahendry.auto-rename-tag",
     "naumovs.color-highlight",
     "mrmlnc.vscode-duplicate",
-    "wix.vscode-import-cost",
     "wayou.vscode-todo-highlight",
 
     // Other
     "vscodevim.vim",
     "ms-azuretools.vscode-docker",
-    "csstools.postcss",
-    "antfu.unocss",
     "Vue.volar",
   ]
 }
