@@ -18,7 +18,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never"
+    "source.organizeImports": "never",
+    "source.removeUnusedImports": "always"
   },
   "editor.tabSize": 2,
   "editor.find.addExtraSpaceOnTop": true,
@@ -31,12 +32,12 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "diffEditor.ignoreTrimWhitespace": false,
-  "breadcrumbs.enabled": false,
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.lightbulb.enabled": "off",
   "editor.guides.indentation": true,
   "editor.occurrencesHighlight": "off",
   "editor.selectionHighlight": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 
   // Window
   "window.titleBarStyle": "custom",
@@ -44,7 +45,6 @@
   "window.title": "🥷",
   "window.zoomLevel": 2, 
   "window.nativeTabs": false,
-  "window.customTitleBarVisibility": "never",
   "window.commandCenter": false,
   
   // Explorer
@@ -61,6 +61,10 @@
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.fontFamily": "DejaVuSansM Nerd Font",
   "terminal.integrated.fontSize": 12,
+
+  // Vue / TypeScript
+  "vue.autoInsert.dotValue": true,
+  "vue.autoInsert.bracketSpacing": true,
 
   // Vim
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -101,26 +105,22 @@
   // code-spell-checker extension settings
   "cSpell.userWords": [
     "antfu",
-    "Arcanify",
     "clsx",
     "iconify",
     "Kinde",
+    "nuxi",
     "nuxt",
     "nuxtjs",
     "pinia",
     "primevue",
-    "prio",
     "shadcn",
-    "sjkey",
     "tsup",
-    "Unocss",
     "unplugin",
-    "Vitesse",
-    "vuepic",
+    "vercel",
     "vueuse"
   ],
   "cSpell.allowCompoundWords": true,
-  "cSpell.language": "en,en-US,pl",
+  "cSpell.language": "en-US",
 
   "search.exclude": {
     "**/.git": true,
@@ -141,7 +141,6 @@
     "**/yarn.lock": true
   },
 
-  "css.lint.unknownAtRules": "ignore",
   "github.copilot.editor.enableAutoCompletions": true,
   "tailwind-fold.autoFold": false,
   "github.copilot.enable": {
@@ -157,5 +156,5 @@
   "scm.diffDecorations": "none",
   "typescript.format.semicolons": "remove",
   "javascript.format.semicolons": "remove",
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  "git.confirmSync": false,
 }
