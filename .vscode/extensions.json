@@ -27,7 +27,6 @@
 
     // Other
     "vscodevim.vim",
-    "ms-azuretools.vscode-docker",
     "Vue.volar",
   ]
 }
