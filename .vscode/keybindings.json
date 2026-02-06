@@ -933,5 +933,20 @@
   {
     "key": "cmd+k c",
     "command": "-workbench.files.action.compareWithClipboard"
+  },
+  // Cursor
+  {
+    "key": "ctrl+alt+cmd+i",
+    "command": "workbench.action.toggleAuxiliaryBar",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "key": "alt+cmd+b",
+    "command": "-workbench.action.toggleAuxiliaryBar",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-composer.startComposerPrompt"
   }
 ]
